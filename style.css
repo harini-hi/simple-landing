@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(29, 41, 66, 0.692),rgba(29, 41, 66, 0.692)) ,url(home-bg.jpg);
+    background-size: cover;
+    height: 85vh;
+    color: white;
+}
+.head{
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+
+    
+}
+.head h5{
+    width: 145px;
+    margin-left: 80px;
+    margin-top: 33px;
+   font-weight: 500;
+    font-size: 25px;
+}
+.head ul{
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    gap: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.mainbtn{
+    position: absolute;
+    margin-left: 70vh;
+}
+.inputbox{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 80px;
+    padding-left: 8px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+}
+.head-btn{
+    padding: 9px 50px;
+    border-radius: 30px;
+    border: none;
+    background-color:#29ca8e;
+    position: absolute;
+    margin-left: 28vh;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    font-family: "Open Sans", sans-serif;
+   font-weight: lighter;
+    font-size: 40px;
+    
+}
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    margin: 5px 0;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+    color: grey;
+}
+.margin{
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+.margin h1{
+    margin-top: 50px;
+}
+.head p{
+    margin-top: 40px;
+    color: white;
+}
+.head-2{
+    text-align: center;
+    margin-top: 10%;
+    font-family: "Open Sans", sans-serif;
+    line-height: 50px;
+   
+}
+.head-2 h1{
+    margin-bottom: 15px;
+}
+.main-1{
+    display: flex;
+    margin-top: 45px;
+}
+.main1-content{
+    margin: 30px 65px;
+}
+.main1-img img{
+    width: 450px;
+    height: 80vh;
+}
+.main-1 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin: 50px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: grey;
+}
+.menu-1{
+    color: black;
+    border-bottom: solid #29ca8e 3px;
+}
+.bgcolor{
+    background-color: whitesmoke;
+}
+
+.main-2 h1{
+    text-align: center;
+    margin: 40px 0;
+    font-weight: lighter;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.main2-content {
+    display:flex;
+    background-color: white;
+    width: 82.5%;
+    margin-left: 7%;
+    height: 80vh;
+    
+}
+.main2-content img{
+    width: 350px;
+    margin-bottom: 0;
+    
+}
+.main2-content h4{
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+.main2-content h2{
+    margin-left: 30px;
+}
+.part2,
+.part3,
+.part6{
+    background-color: white;
+}
+
+.main-3 h1{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+   
+}
+.main3-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto ;
+    width: 60%;
+    margin-left: 7%;
+    gap: 3px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.main3-content h2,p,h5{
+   
+    margin: 20px 30px;
+}
+.main3-content p{
+    line-height: 30px;
+}
+.main3-content h5{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.list{
+    width: 350px;
+    margin: 40px 0;
+    background-color: white;
+    
+}
+.line{
+    border: solid 1px whitesmoke;
+    width: 250px;
+    margin-left: 30px;
+}
+.button{
+    display: flex;
+}
+.button button{
+    border: #29ca8e;
+    background-color: #29ca8e;
+    padding: 10px 30px;
+    margin: 20px 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+}
+footer h1{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.foot{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto ;
+    width: 60%;
+    margin-left: 7%;
+    gap: 3px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.line2{
+    border: solid 1.5px whitesmoke;
+    width: 300px;
+    margin-left: 30px;
+}
+.foot button{
+    border: black;
+    background-color: black;
+    padding: 15px 90px;
+    margin: 20px 10px;
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+}
+.msg{
+    margin-left: 9%;
+}
+.line3{
+    width: 900px;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+.Copyright{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.fa-facebook {
+    color: black;
+    padding: 8px;
+    margin-left: 27%;
+    margin-top: 15px;
+}
+  
+.fa-twitter {
+    color:black;
+    padding: 8px;
+    margin-top: 15px;
+  }
+.fa-instagram {
+    color: black;
+    padding: 8px;
+    margin-top: 15px;
+  }
